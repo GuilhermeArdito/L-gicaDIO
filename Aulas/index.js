@@ -1,6 +1,6 @@
-// Variáveis de exemplo (substitua com os valores desejados)
+// Variáveis de exemplo
 let nomeHeroi = "Guerreiro";
-let xpHeroi = 6200; // Exemplo de XP
+let xpHeroi = 6200; 
 
 // Determinando o nível com base na XP
 let nivel;
@@ -23,5 +23,5 @@ if (xpHeroi < 1000) {
     nivel = "Radiante";
 }
 
-// Exibindo a mensagem final
+// Mensagem final
 console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivel}`);
